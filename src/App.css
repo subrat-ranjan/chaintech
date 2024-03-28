@@ -1,0 +1,49 @@
+
+* {
+  margin: 0 ;
+  padding: 0;
+}
+.service{
+  margin-top: 80px;
+}
+.offers{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+h2{
+  font-Weight:600;
+font-size:50px ;
+}
+p{
+  font-Weight:500;
+font-weight:18px ;
+}
+.arrowbutton{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 50%; 
+  width: 48px;
+  height: 48px; 
+
+}
+.rightarrow{
+  height: 14px;
+  width: 20px;
+  gap: 10px;
+}

@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:
+    #030303;
+}
+.flogo{
+    margin-top: 45px;
+}
+
+.horizline1{
+    height: 1px;
+    width: 73vw;
+    margin-top: 40px;
+    background-color:
+    #5E5E5E;
+}
+.copy{
+    color:  #98A6AC;
+    margin: 45px;
+    font-weight: 500;
+    font-size: 14px;
+}

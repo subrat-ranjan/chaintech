@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+.containerr{
+    background-color: black; 
+}
+nav{
+    padding-top: 40px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+gap: 20px;
+padding: 30px;
+text-decoration:none;
+color: #FFFFFF;
+/* color:#00FFA7; */
+font-weight: 600;
+font-size: 18px;
+}
+.active{
+    color:#00FFA7;
+}
+.horizontal{
+    margin-top: 35px;
+    height: 0.95px;
+    width: 100%;
+    background-color: #1F1F1F;
+}
+header{
+    /* margin-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color:#FFFFFF;
+    font-size: 6.25vw; 
+    /* letter-spacing: 0.11em; */
+    font-weight: 900;
+    text-align: center; 
+}
+.grident{
+/* color:linear-gradient( #00FFA7 ,#FFFF00) */
+background: linear-gradient(to right,#FFFF00,  #00FFA7  );
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+background-clip: calc();
+}
+article{
+    margin-top: 10px;
+    color: #FFFFFF;
+    letter-spacing: 6%;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 11%;
+    font-weight: 500;
+}
+button{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 3px;
+    Width:211.97px;
+    Height:66.06px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 110px 0px;
+
+}
+.arrow{
+    background-color: black;
+    border: 80px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.arr{
+background-color: #000000;
+border-radius: 50%;
+height: 32px;
+width: 32px;
+border: 40px;
+}
+.menu-btn {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+  }
+@media only screen and (max-width: 872px) {
+
+    .menu-btn {
+        height: 30px;
+        width: 30px;
+        display: block;
+        cursor: pointer;
+      }
+      nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header{
+        margin-top: 20px;
+      }
+    
+       .links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        text-decoration: none;
+        background-color: rgb(40, 39, 39) ;
+        width: 0px;
+        height: 45%;
+        border-radius: 20px 0px 0px 30px;
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+      }
+      .links.active{
+        width: 220px;
+      } 
+
+}
+
+
+    
+  
+  

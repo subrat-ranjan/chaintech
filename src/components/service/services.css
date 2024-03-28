@@ -1,0 +1,170 @@
+
+.card_container{
+    /* margin-left: 120px; */
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: row;
+}
+.services{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+.logo{
+    margin: 10px 0px 15px 25px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.card{
+    width: 293px;
+    height: 402px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color:#2BFF8A;
+}
+.card2{
+    width: 293px;
+    height: 402px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color:#00F0FF;
+    
+}
+.card3{
+    width: 293px;
+    height: 402px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color:
+    #FC5959;
+    
+}
+.card4{
+    width: 293px;
+    height: 402px;
+    border-radius: 20px;
+    border: 3px solid black;
+    background-color:#2D45E6;
+}
+/* 
+ .card_items{
+ 
+ }  */
+ .logo{
+    display: flex;
+    align-items:self-start;
+    align-items: center;
+    gap: 2;
+ }  
+.img1{
+    height: 29px;
+    width: 29px;
+} 
+.text {
+    font-size: 15px;
+    font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.horizline {
+    
+    height: 2px;
+    width: 100%;
+    margin-top: -12px;
+    background-color: black;
+}
+
+.dev{
+    font-weight: 600;
+    font-size: 23px;
+  margin: 30px;  
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+ .main{
+height: 177px;
+
+ } 
+
+.imgcontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.img2{
+    margin-top: 5px;
+height: 177px;
+width: 91%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+object-fit: cover;
+} 
+
+.btn1{
+display: flex;
+align-items: center;
+gap: 15px;
+padding: 7px;
+background-color: black;
+border-radius: 19px;
+color: white;
+} 
+
+
+.btnn{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 2px solid black;
+    Width:117.79px;
+    Height:38.55px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btnn2{
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50px;
+    border: 2px solid black;
+    Width:117.79px;
+    Height:38.55px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn2{
+    display: flex;
+
+    margin: 12px 0px 0px 153px;
+
+}
+.arrow1{
+    background: linear-gradient(#00FFA7
+,
+#FFFF00
+);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 23.71px;
+    width: 23.71px;
+}
+.arr1{
+
+border-radius: 50%;
+height: 9px;
+width: 13.08px;
+}
