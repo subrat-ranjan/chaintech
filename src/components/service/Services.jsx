@@ -1,7 +1,7 @@
 import React from "react";
 import "./services.css";
 
-const Services = () => {
+const Services = ({ cardColor, color }) => {
   return (
     <div className="card_container">
       <div className="services">
@@ -60,7 +60,7 @@ const Services = () => {
             </div>
             <div className="horizline"></div>
             <div className="btn2 ">
-              <button className="btnn2">
+              <button className="btnn2" style={{ backgroundColor: cardColor, color: color }}>
                 Explore{" "}
                 <div className="arrow1">
                   <img className="arr1" src="images/img_arrowright_gray_900_01.svg" alt="" />

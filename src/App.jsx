@@ -21,9 +21,10 @@ const App = () => {
             </div>
           </div>
         </div>
-
-        <Services />
-        <Services />
+        <div className="components">
+          <Services />
+          <Services cardColor="white" color="black" />
+        </div>
       </div>
       <Footer />
     </div>
